@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Odnośniki graficzne</title>
+    <style>
+        #zabawa {
+            text-decoration: none;
+            width: 265px;
+            height: 112px;
+            display: block;
+
+
+
+
+        }
+    #zabawa:link {
+        background-image: url("link1.jpg");
+    }
+    #zabawa:hover{
+        background-image: url("hover.jpg");
+    }
+    #zabawa:active {
+        background-image: url("aktywny.jpg");
+    }
+
+
+    
+    
+    </style>
+</head>
+<body>
+    <p><a href="6.html"><img scr="obrazek.jpg" alt="Mapa kwadratów" usemap="#mapa"></a></p>
+    <map name="mapa">
+        <area shape="rect" coords="0,0,78,78" href="http://onet.pl" alt="Kwadrat zielony">
+        <area shape="rect" coords="78,78,156,156" href="http://wp.pl" alt="Kwadrat żółty">
+
+
+    </map>
+    <br>
+    <a href="http://wsb.pl" id="zabawa"></a>
+
+    
+
+
+</body>
+</html>
